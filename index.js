@@ -13,19 +13,25 @@ const PORT = process.env.PORT;
 const packageDetails = [
   {
     id: uuidv4(),
-    name: 'Basic Plan',
+    data: '1',
+    dataUnit: 'Gb',
+    period: 'month',
     price: 27.36,
     description: 'A basic plan with 100 mbps',
   },
   {
     id: uuidv4(),
-    name: 'Silver Plan',
+    data: '2',
+    dataUnit: 'Gb',
+    period: 'month',
     price: 57.36,
     description: 'A silver plan with 500 mbps',
   },
   {
     id: uuidv4(),
-    name: 'Premium Plan',
+    data: '3',
+    dataUnit: 'Gb',
+    period: 'month',
     price: 77.36,
     description: 'A premium plan with 1000 mbps',
   },
