@@ -12,7 +12,7 @@ const PORT = process.env.PORT;
 
 const packageDetails = [
   {
-    id: uuidv4(),
+    id: 1,
     data: '1',
     dataUnit: 'Gb',
     period: 'month',
@@ -20,7 +20,7 @@ const packageDetails = [
     description: 'A basic plan with 100 mbps',
   },
   {
-    id: uuidv4(),
+    id: 2,
     data: '2',
     dataUnit: 'Gb',
     period: 'month',
@@ -28,7 +28,7 @@ const packageDetails = [
     description: 'A silver plan with 500 mbps',
   },
   {
-    id: uuidv4(),
+    id: 3,
     data: '3',
     dataUnit: 'Gb',
     period: 'month',
